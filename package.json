@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+		"dev": "npx nodemon example-01.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/rafalogan/node-steams/issues"
   },
-  "homepage": "https://github.com/rafalogan/node-steams#readme"
+  "homepage": "https://github.com/rafalogan/node-steams#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
 }

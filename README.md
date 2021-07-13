@@ -81,7 +81,7 @@ net.createServer(socket => socket.pipe(process.stdout))
 	.listen(1338);
 
 ```
-In other terminal create the connection of net server.ß
+In other terminal create the connection of net server.
 
 ```shell
 node -e "process.stdin.pipe(require('net').connect(1338))"

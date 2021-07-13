@@ -5,13 +5,12 @@
 # files
 .DS_Store
 .env
-**/big.file
 **/output.txt
 
 # folders
 \dist
 \build
-data/data-base
+\data
 **/database/postegres
 **/database/mongodb
 \coverage
